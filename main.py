@@ -4,7 +4,7 @@ app = Flask(__name__)
  
 @app.route("/")
 def index():
-        return "<h1>Hello Python using Flask</h1>"
+        return "<h1>Dialogflow 呼叫外部API</h1>"
 
 # create a route for webhook
 @app.route('/webhook', methods=['POST'])
